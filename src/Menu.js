@@ -8,8 +8,8 @@ import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faInfoCircle, faInfo, faCompress, faUserAlt } from '@fortawesome/free-solid-svg-icons';
 import { MDBIcon } from 'mdbreact';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import { SocialIcon } from 'react-social-icons';
+// import '@fortawesome/fontawesome-free/css/all.min.css';
+// import { SocialIcon } from 'react-social-icons';
 const information =
 {
     firstfont: <FontAwesomeIcon icon={faHome} />,
@@ -18,10 +18,10 @@ const information =
     fourfont: <MDBIcon icon="map-marked-alt" />,
     fivefont: <FontAwesomeIcon icon={faCompress} />,
     sixfont: <FontAwesomeIcon icon={faUserAlt} />,
-    twifontsocial: <SocialIcon style={{ width: '30px', height: '20px' }} className="App-logo" url="http://twitter.com/jaketrent" />,
-    facefontsocial: <SocialIcon style={{ width: '30px', height: '20px' }} className="App-logo" url="http://facebook.com/jaketrent" />,
-    instfontsocial: <SocialIcon style={{ width: '30px', height: '20px' }} className="App-logo" url="http://instagram.com/jaketrent" />,
-    whatfontsocial: <SocialIcon style={{ width: '30px', height: '20px' }} className="App-logo" url="http://whatsapp.com/jaketrent" />
+    // twifontsocial: <SocialIcon style={{ width: '30px', height: '20px' }} className="App-logo" url="http://twitter.com/jaketrent" />,
+    // facefontsocial: <SocialIcon style={{ width: '30px', height: '20px' }} className="App-logo" url="http://facebook.com/jaketrent" />,
+    // instfontsocial: <SocialIcon style={{ width: '30px', height: '20px' }} className="App-logo" url="http://instagram.com/jaketrent" />,
+    // whatfontsocial: <SocialIcon style={{ width: '30px', height: '20px' }} className="App-logo" url="http://whatsapp.com/jaketrent" />
 }
 class Menu extends React.Component {
     render() {
@@ -37,7 +37,7 @@ class Menu extends React.Component {
                     <Nav.Item as="li">
                         <Nav.Link eventKey="link-2">12045678945</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item as="li" className="ml-auto d-flex">
+                    {/* <Nav.Item as="li" className="ml-auto d-flex">
                         <Nav.Item as="li">
                             <Nav.Link eventKey="link-2">{information.twifontsocial}</Nav.Link>
                         </Nav.Item>
@@ -50,7 +50,7 @@ class Menu extends React.Component {
                         <Nav.Item as="li" >
                             <Nav.Link eventKey="link-2">{information.whatfontsocial}</Nav.Link>
                         </Nav.Item>
-                    </Nav.Item>
+                    </Nav.Item> */}
                 </Nav>
 
 
